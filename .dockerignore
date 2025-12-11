@@ -1,0 +1,10 @@
+
+Set-Content .dockerignore @"
+__pycache__
+*.pyc
+.venv
+pytest.ini
+pytest_cache
+.git
+tests
+"@
